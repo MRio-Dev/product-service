@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class ProductUpdateRequest {
-    private Integer id;
+    private String id;
     private String name;
     private String price;
     private String description;
